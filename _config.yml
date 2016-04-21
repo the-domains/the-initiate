@@ -1,14 +1,26 @@
-layout_spectrum: 0.6754677
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
 typography_spectrum: 0.9772344
 color:
-  saturation: 0.7218286
+  saturation: 0.5795739
   brandStrength: 0
-  lightness: 0.8590778
-  rhythmicContrast: 0.4989974
+  lightness: 0
   brandColors:
     - '#17BEBB'
     - '#2E282A'
     - '#CD5334'
     - '#EDB88B'
     - '#FAD8D6'
+  rhythmicContrast: 0.4989974
+layout_spectrum: 0.6754677
 name: The Initiate
